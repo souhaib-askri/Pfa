@@ -1,0 +1,22 @@
+@startuml
+actor User
+User -> "Login Controller": POST /login (email, password)
+"Login Controller" -> "Database": Find user by email
+alt User exists
+    "Database" --> "Login Controller": User data
+    "Login Controller" -> "bcrypt": Compare password
+    alt Password matches
+        "bcrypt" --> "Login Controller": true
+        "Login Controller" -> "JWT Service": Create JWT token
+        "JWT Service" --> "Login Controller": Token
+        "Login Controller" -> User: Return token and user (without password)
+    else Password does not match
+        "bcrypt" --> "Login Controller": false
+        "Login Controller" -> User: Return error (wrong password)
+    end
+else User does not exist
+    "Database" --> "Login Controller": null
+    "Login Controller" -> User: Return error (wrong email)
+end
+"Login Controller" -> "Logging Service": Log success or failure
+@enduml

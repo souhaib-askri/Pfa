@@ -1,0 +1,724 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024 - Flatpak) (preloaded format=pdflatex 2024.9.10)  23 OCT 2024 10:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**untitled-1.tex
+(./untitled-1.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/app/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(/app/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/app/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/app/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/app/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count197
+\U@D=\dimen141
+\l@unhyphenated=\language89
+
+(/app/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count198
+
+(/app/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2024-02-29 v3.5s French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language31). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language31). Reported on input line 92.
+\FB@stdchar=\count199
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count266
+\FBold@everypar=\toks19
+\FB@Mht=\dimen142
+\mc@charclass=\count267
+\mc@charfam=\count268
+\mc@charslot=\count269
+\std@mcc=\count270
+\dec@mcc=\count271
+\FB@parskip=\dimen143
+\listindentFB=\dimen144
+\descindentFB=\dimen145
+\labelindentFB=\dimen146
+\labelwidthFB=\dimen147
+\leftmarginFB=\dimen148
+\parindentFFN=\dimen149
+\FBfnindent=\dimen150
+))
+(/app/texlive/texmf-dist/tex/generic/babel/locale/fr/babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(/app/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/app/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/app/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/app/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/app/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/app/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+)
+(/app/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box51
+\extrarowheight=\dimen154
+\NC@list=\toks21
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
+)
+(/app/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen155
+\TX@old@table=\dimen156
+\TX@old@col=\dimen157
+\TX@target=\dimen158
+\TX@delta=\dimen159
+\TX@cols=\count272
+\TX@ftn=\toks22
+)
+(/app/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count273
+\LTcapwidth=\dimen160
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@gbox=\box57
+\LT@cols=\count274
+\LT@rows=\count275
+\c@LT@tables=\count276
+\c@LT@chunks=\count277
+\LT@p@ftn=\toks23
+)
+(/app/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks24
+)
+(/app/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen161
+\enit@toks=\toks25
+\enit@inbox=\box58
+\enit@count@id=\count278
+\enitdp@description=\count279
+)
+(/app/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/app/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+Package caption Info: longtable package is loaded.
+
+(/app/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(/app/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count282
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count283
+)
+(/app/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count284
+\float@exts=\toks26
+\float@box=\box59
+\@float@everytoks=\toks27
+\@floatcapt=\box60
+)
+(/app/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/app/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/app/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count285
+\Gm@cntv=\count286
+\c@Gm@tempcnt=\count287
+\Gm@bindingoffset=\dimen170
+\Gm@wd@mp=\dimen171
+\Gm@odd@mp=\dimen172
+\Gm@even@mp=\dimen173
+\Gm@layoutwidth=\dimen174
+\Gm@layoutheight=\dimen175
+\Gm@layouthoffset=\dimen176
+\Gm@layoutvoffset=\dimen177
+\Gm@dimlist=\toks28
+)
+(/app/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/app/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/app/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/app/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/app/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/app/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/app/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/app/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/app/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/app/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/app/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/app/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/app/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count288
+)
+(/app/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count289
+)
+\@linkdim=\dimen178
+\Hy@linkcounter=\count290
+\Hy@pagecounter=\count291
+
+(/app/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/app/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count292
+
+(/app/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count293
+
+(/app/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen179
+
+(/app/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/app/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count294
+\Field@Width=\dimen180
+\Fld@charsize=\dimen181
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/app/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count295
+\c@Item=\count296
+\c@Hfootnote=\count297
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/app/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(/app/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
+
+(/app/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/app/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip57
+)
+(/app/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count300
+\lst@gtempboxa=\box61
+\lst@token=\toks29
+\lst@length=\count301
+\lst@currlwidth=\dimen182
+\lst@column=\count302
+\lst@pos=\count303
+\lst@lostspace=\dimen183
+\lst@width=\dimen184
+\lst@newlines=\count304
+\lst@lineno=\count305
+\lst@maxwidth=\dimen185
+
+(/app/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+(/app/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count306
+\lst@skipnumbers=\count307
+\lst@framebox=\box62
+)
+(/app/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+
+(/app/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/app/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/app/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/app/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
+)
+(/app/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen186
+\lightrulewidth=\dimen187
+\cmidrulewidth=\dimen188
+\belowrulesep=\dimen189
+\belowbottomsep=\dimen190
+\aboverulesep=\dimen191
+\abovetopsep=\dimen192
+\cmidrulesep=\dimen193
+\cmidrulekern=\dimen194
+\defaultaddspace=\dimen195
+\@cmidla=\count308
+\@cmidlb=\count309
+\@aboverulesep=\dimen196
+\@belowrulesep=\dimen197
+\@thisruleclass=\count310
+\@lastruleclass=\count311
+\@thisrulewidth=\dimen198
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+
+(/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count312
+\l__pdf_internal_box=\box63
+)
+(./untitled-1.aux)
+\openout1 = `untitled-1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Info: Redefining \degres on input line 65.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 65.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 65.
+LaTeX Info: Redefining \up on input line 65.
+ (/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count313
+\scratchdimen=\dimen199
+\scratchbox=\box64
+\nofMPsegments=\count314
+\nofMParguments=\count315
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen256
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
+\everyMPtoPDFconversion=\toks31
+) (/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/app/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 65.
+(./untitled-1.out) (./untitled-1.out)
+\@outlinefile=\write3
+\openout3 = `untitled-1.out'.
+
+\c@lstlisting=\count319
+ [1
+
+{/app/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/app/texlive/texmf
+-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./untitled-1.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.37 ...t rÃ©alisation du Sprint 2}{12}{chapter.5}
+                                                  % [1
+
+])
+\tf@toc=\write4
+\openout4 = `untitled-1.toc'.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[2]
+Chapitre 1.
+[3
+
+]
+Chapitre 2.
+[4
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[5]
+Chapitre 3.
+<./img/diagram/UseCases/global.png, id=328, 579.16376pt x 491.8375pt>
+File: ./img/diagram/UseCases/global.png Graphic file (type png)
+<use ./img/diagram/UseCases/global.png>
+Package pdftex.def Info: ./img/diagram/UseCases/global.png  used on input line 
+165.
+(pdftex.def)             Requested size: 455.24411pt x 386.6036pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6
+
+]
+<./img/ph/ph.png, id=334, 526.96875pt x 189.70876pt>
+File: ./img/ph/ph.png Graphic file (type png)
+<use ./img/ph/ph.png>
+Package pdftex.def Info: ./img/ph/ph.png  used on input line 197.
+(pdftex.def)             Requested size: 455.24411pt x 163.89607pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[7 <./img/diagram/UseCases/global.png (PNG copy)>]
+Overfull \hbox (3.81725pt too wide) in paragraph at lines 209--210
+[]\T1/cmr/bx/n/12 Système d'au-then-ti-fi-ca-tion \T1/cmr/m/n/12 (ins-crip-tion
+, connexion, ré-cu-pé-ra-tion de mot de passe) 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[8 <./img/ph/ph.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[9]
+Chapitre 4.
+[10
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[11]
+Chapitre 5.
+[12
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[14]
+Chapitre 6.
+[15
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[16]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[17] [18
+
+] (./untitled-1.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+Package rerunfilecheck Info: File `untitled-1.out' has not changed.
+(rerunfilecheck)             Checksum: 5D54551F252163131EB330497D390782;11053.
+ ) 
+Here is how much of TeX's memory you used:
+ 15205 strings out of 474116
+ 240364 string characters out of 5745187
+ 1940187 words of memory out of 5000000
+ 37288 multiletter control sequences out of 15000+600000
+ 569025 words of font info for 56 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,11n,79p,608b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></app/texli
+ve/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></app/texlive/texmf-dist
+/fonts/type1/public/cm-super/sfbx1728.pfb></app/texlive/texmf-dist/fonts/type1/
+public/cm-super/sfbx2488.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-sup
+er/sfcc1200.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
+fb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/cm-super/sfti1728.pfb>
+Output written on untitled-1.pdf (19 pages, 275177 bytes).
+PDF statistics:
+ 481 PDF objects out of 1000 (max. 8388607)
+ 435 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 475 words of extra memory for PDF output out of 10000 (max. 10000000)
+

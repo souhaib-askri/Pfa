@@ -1,0 +1,34 @@
+@startuml
+class LabResult {
+  +Integer id
+  +String result
+  +Date date
+  +String testType
+  +String filepath
+  +Integer labId
+  +Integer userId
+}
+
+class Lab {
+  +Integer id
+  +String name
+  +String location
+  +String email
+  +Integer phoneNumber
+  +timestamps: Boolean
+}
+
+class User {
+  +Integer id
+  +String firstName
+  +String lastName
+  +String email
+  +String password
+}
+
+LabResult --> Lab : "belongs to"
+LabResult --> User : "belongs to"
+User "1" --> "many" LabResult : "has many"
+Lab "1" --> "many" LabResult : "has many"
+
+@enduml

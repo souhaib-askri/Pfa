@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+actor User
+
+rectangle LabConnect {
+  usecase "Create Account" as UC1
+  usecase "Login" as UC2
+  usecase "Get History of Lab Results" as UC3
+  usecase "View Lab Result" as UC4
+  usecase "Download Lab Result" as UC5
+  usecase "Explore the Platform" as UC6
+  usecase "Authentication" as Auth
+}
+
+User --> UC1
+User --> UC2
+
+UC3 ..> Auth : "include"
+UC4 ..> Auth : "include"
+UC5 ..> Auth : "include"
+UC6 ..> Auth : "include"
+
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+
+@enduml

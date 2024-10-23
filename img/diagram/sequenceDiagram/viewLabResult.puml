@@ -1,0 +1,17 @@
+@startuml
+actor User
+User -> "LabResults Controller": GET /labresults/:id (with JWT token)
+"LabResults Controller" -> "JWT Service": Verify and decode JWT
+"JWT Service" --> "LabResults Controller": User ID
+
+"LabResults Controller" -> "Database": Find lab result by id
+alt Lab result found
+    "Database" --> "LabResults Controller": Lab result data
+    "LabResults Controller" -> "File System": Send PDF file to user
+    "File System" --> User: PDF file (view)
+else Lab result not found
+    "Database" --> "LabResults Controller": null
+    "LabResults Controller" -> User: Return 404 error (File not found)
+end
+"LabResults Controller" -> "Logging Service": Log success or failure
+@enduml

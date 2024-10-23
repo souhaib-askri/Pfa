@@ -1,0 +1,19 @@
+@startuml
+actor User
+User -> "Register Controller": POST /register (firstName, lastName, email, password)
+"Register Controller" -> "Database": Check if email exists
+alt Email exists
+    "Database" --> "Register Controller": Existing user
+    "Register Controller" -> User: Return error (email already used)
+else Email does not exist
+    "Database" --> "Register Controller": null
+    "Register Controller" -> "bcrypt": Hash password
+    "bcrypt" --> "Register Controller": Hashed password
+    "Register Controller" -> "Database": Create new user with hashed password
+    "Database" --> "Register Controller": New user data
+    "Register Controller" -> "JWT Service": Create JWT token
+    "JWT Service" --> "Register Controller": Token
+    "Register Controller" -> User: Return token and user (without password)
+end
+"Register Controller" -> "Logging Service": Log success or failure
+@enduml

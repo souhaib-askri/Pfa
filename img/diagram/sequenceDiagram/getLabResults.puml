@@ -1,0 +1,16 @@
+@startuml
+actor User
+User -> "LabResults Controller": GET /labresults (with JWT token)
+"LabResults Controller" -> "JWT Service": Verify and decode JWT
+"JWT Service" --> "LabResults Controller": User ID
+
+"LabResults Controller" -> "Database": Find lab results by userId
+alt Lab results found
+    "Database" --> "LabResults Controller": List of lab results
+    "LabResults Controller" -> User: Return lab results
+else No lab results found
+    "Database" --> "LabResults Controller": No results
+    "LabResults Controller" -> User: Return message (No lab results found)
+end
+"LabResults Controller" -> "Logging Service": Log success or failure
+@enduml
