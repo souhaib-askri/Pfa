@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024 - Flatpak) (preloaded format=pdflatex 2024.9.10)  23 OCT 2024 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024 - Flatpak) (preloaded format=pdflatex 2024.9.10)  23 OCT 2024 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -545,7 +545,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 ...t rÃ©alisation du Sprint 2}{12}{chapter.5}
+l.38 ...t rÃ©alisation du Sprint 2}{13}{chapter.5}
                                                   % [1
 
 ])
@@ -567,9 +567,14 @@ Chapitre 1.
 
 ]
 Chapitre 2.
+<./img/tt.png, id=322, 632.3625pt x 354.32375pt>
+File: ./img/tt.png Graphic file (type png)
+<use ./img/tt.png>
+Package pdftex.def Info: ./img/tt.png  used on input line 105.
+(pdftex.def)             Requested size: 455.24411pt x 255.08586pt.
 [4
 
-]
+ <./img/tt.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.61858pt, for example:
@@ -579,23 +584,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
 [5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[7]
 Chapitre 3.
-<./img/diagram/UseCases/global.png, id=328, 579.16376pt x 491.8375pt>
+<./img/diagram/UseCases/global.png, id=346, 579.16376pt x 491.8375pt>
 File: ./img/diagram/UseCases/global.png Graphic file (type png)
 <use ./img/diagram/UseCases/global.png>
 Package pdftex.def Info: ./img/diagram/UseCases/global.png  used on input line 
-165.
+185.
 (pdftex.def)             Requested size: 455.24411pt x 386.6036pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6
+[8
 
 ]
-<./img/ph/ph.png, id=334, 526.96875pt x 189.70876pt>
+<./img/ph/ph.png, id=351, 526.96875pt x 189.70876pt>
 File: ./img/ph/ph.png Graphic file (type png)
 <use ./img/ph/ph.png>
-Package pdftex.def Info: ./img/ph/ph.png  used on input line 197.
+Package pdftex.def Info: ./img/ph/ph.png  used on input line 217.
 (pdftex.def)             Requested size: 455.24411pt x 163.89607pt.
 
 
@@ -609,8 +632,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[7 <./img/diagram/UseCases/global.png (PNG copy)>]
-Overfull \hbox (3.81725pt too wide) in paragraph at lines 209--210
+[9 <./img/diagram/UseCases/global.png (PNG copy)>]
+Overfull \hbox (3.81725pt too wide) in paragraph at lines 229--230
 []\T1/cmr/bx/n/12 Système d'au-then-ti-fi-ca-tion \T1/cmr/m/n/12 (ins-crip-tion
 , connexion, ré-cu-pé-ra-tion de mot de passe) 
  []
@@ -623,20 +646,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[8 <./img/ph/ph.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.61858pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.61858pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
-
-[9]
-Chapitre 4.
-[10
-
-]
+[10 <./img/ph/ph.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.61858pt, for example:
@@ -646,7 +656,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
 [11]
-Chapitre 5.
+Chapitre 4.
 [12
 
 ]
@@ -659,17 +669,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
 [13]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.61858pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.61858pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
-
-[14]
-Chapitre 6.
-[15
+Chapitre 5.
+[14
 
 ]
 
@@ -680,7 +681,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[16]
+[15]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.61858pt, for example:
@@ -689,24 +690,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
 
-[17] [18
+[16]
+Chapitre 6.
+[17
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[18]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.61858pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.61858pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.61858pt}.
+
+[19] [20
 
 ] (./untitled-1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `untitled-1.out' has not changed.
-(rerunfilecheck)             Checksum: 5D54551F252163131EB330497D390782;11053.
+(rerunfilecheck)             Checksum: BC5BF243CCC16FEA434F28DCD8D08042;11247.
  ) 
 Here is how much of TeX's memory you used:
- 15205 strings out of 474116
- 240364 string characters out of 5745187
- 1940187 words of memory out of 5000000
- 37288 multiletter control sequences out of 15000+600000
+ 15217 strings out of 474116
+ 240550 string characters out of 5745187
+ 1941187 words of memory out of 5000000
+ 37296 multiletter control sequences out of 15000+600000
  569025 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,608b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,628b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></app/texli
 ve/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></app/texlive/texmf-dist
 /fonts/type1/public/cm-super/sfbx1728.pfb></app/texlive/texmf-dist/fonts/type1/
@@ -715,10 +742,10 @@ er/sfcc1200.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
 fb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></app/texl
 ive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></app/texlive/texmf-dis
 t/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on untitled-1.pdf (19 pages, 275177 bytes).
+Output written on untitled-1.pdf (21 pages, 289252 bytes).
 PDF statistics:
- 481 PDF objects out of 1000 (max. 8388607)
- 435 compressed objects within 5 object streams
- 106 named destinations out of 1000 (max. 500000)
- 475 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 
