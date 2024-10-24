@@ -7,7 +7,6 @@
 \contentsline {section}{\numberline {2.4}Solution Proposée}{6}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Méthodologie de Développement}{6}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Les rôles au sein de l'équipe Scrum}{7}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Organisation des Sprints}{7}{subsection.2.5.2}%
 \contentsline {section}{\numberline {2.6}Conclusion}{7}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Sprint 0 – Phase de Préparation}{8}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{8}{section.3.1}%

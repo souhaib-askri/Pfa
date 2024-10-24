@@ -150,20 +150,11 @@ Le développement de l'application suivra une méthodologie \textbf{agile}, en a
 
 \subsection{Les rôles au sein de l'équipe Scrum}
 \begin{itemize}
-    \item \textbf{Product Owner} : Responsable de définir les besoins patients et de prioriser les fonctionnalités qui y répondent.
-    \item \textbf{Scrum Master} : Garant du respect du processus agile et de la facilitation des sprints.
-    \item \textbf{Équipe de développement} : Composée de développeurs, designers et testeurs, elle sera chargée de la mise en œuvre des fonctionnalités de l'application.
+    \item \textbf{Product Owner} : Issam mekni.
+    \item \textbf{Scrum Master} : Ibramhim Soltani .
+    \item \textbf{Équipe de développement} : Souhaieb Askri et Issam mekni.
 \end{itemize}
 
-\subsection{Organisation des Sprints}
-Le projet sera organisé en plusieurs sprints :
-
-\begin{itemize}
-    \item \textbf{Sprint 0} : Définition de l'architecture et des besoins fonctionnels de l'application.
-    \item \textbf{Sprint 1} : Développement des fonctionnalités de base pour la création et la gestion des comptes patients.
-    \item \textbf{Sprint 2} : Implémentation des fonctionnalités de consultation et téléchargement des résultats d'analyses.
-    \item \textbf{Sprint 3} : Mise en place de l'historique des analyses, permettant aux patients de consulter l'évolution de leurs résultats au fil du temps.
-\end{itemize}
 
 \section{Conclusion}
 Ce chapitre a introduit le cadre du projet et les solutions envisagées pour répondre aux problématiques d'accès aux résultats d'analyses médicales par les patients. La solution proposée centralise les informations et simplifie l'accès aux données médicales pour les patients, tout en respectant des normes élevées de sécurité des données.
@@ -177,16 +168,15 @@ Le Sprint 0 marque la phase de préparation du projet LabConnect. Cette étape e
 \section{Modélisation du Contexte et Identification des Acteurs}
 
 \subsection{Identification des Acteurs}
-Dans ce projet, nous distinguons plusieurs acteurs clés :
 
 \begin{itemize}
-    \item \textbf{Utilisateur} : Il s'agit des patients qui se connectent pour accéder à leurs résultats d'analyses médicales.
+    \item \textbf{Utilisateur} : Il s’agit des patients ou des médecins qui se connectent à la plateforme pour consulter ou télécharger les résultats d'analyses médicales.
     
-    \item \textbf{Administrateur du Laboratoire} : Responsable de l'ajout et de la gestion des résultats sur la plateforme.
+    \item \textbf{ Administrateur du Laboratoire} : Responsable de la gestion des comptes, de l'ajout des résultats des analyses, et du suivi de l'activité sur la plateforme .
     
-    \item \textbf{Système} : Le serveur backend qui gère les données, l'authentification, et la sécurité des échanges entre les utilisateurs et les laboratoires.
+    \item \textbf{Système Automatique de Laboratoire} : Ce système gère l'intégration automatique des résultats des analyses médicales, envoyés directement depuis les dispositifs de test en laboratoire vers la plateforme.
 \end{itemize}
-
+Dans ce projet, nous développons la section utilisateur permettant aux patients d'accéder facilement à leurs résultats médicaux. 
 \subsection{Diagramme de Cas d'Utilisation}
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{./img/diagram/UseCases/global.png}
@@ -200,10 +190,11 @@ Dans ce projet, nous distinguons plusieurs acteurs clés :
 Les besoins fonctionnels identifiés pour le projet LabConnect incluent :
 
 \begin{itemize}
-    \item Création et gestion des comptes utilisateurs (inscription, connexion, modification des informations).
-    \item Consultation et téléchargement des résultats d'analyses médicales.
-    \item Gestion des données utilisateurs par les administrateurs des laboratoires.
-    \item Sécurisation des données médicales à travers un système d'authentification robuste.
+    \item \textbf{Login} : Le patient se connecte pour accéder à son compte.
+    \item \textbf{Signup} : Le patient crée un compte pour accéder à ses résultats.
+    \item \textbf{Consultation des résultats} : Le patient visualise ses analyses médicales.
+    \item \textbf{Téléchargement des résultats} : Le patient télécharge ses résultats en PDF.
+    \item \textbf{Consultation historique} : Le patient accède à l'historique de ses analyses.
 \end{itemize}
 
 \subsection{Besoins Non Fonctionnels}
